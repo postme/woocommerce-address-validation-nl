@@ -1,0 +1,330 @@
+# Copyright (C) 2014 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Address Validation 1.2.1\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2014-06-15 22:23:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-07-21 21:21+0100\n"
+"Last-Translator: M.E. Post <meint@mailgarant.nl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,37,-1,-1,-1,-1\n"
+
+#: includes/abstract-wc-address-validation-provider.php:151
+#: includes/abstract-wc-address-validation-provider.php:153
+#: includes/admin/class-wc-address-validation-admin.php:174
+msgid "Supported Features"
+msgstr "Ondersteunde functies"
+
+#: includes/admin/class-wc-address-validation-admin.php:91
+msgid "Address Validation"
+msgstr "Adresvalidatie"
+
+#: includes/admin/class-wc-address-validation-admin.php:112
+#: includes/admin/class-wc-address-validation-admin.php:252
+msgid "General Options"
+msgstr "Algemene Instellingen"
+
+#: includes/admin/class-wc-address-validation-admin.php:167
+msgid "Providers"
+msgstr "Aanbieders"
+
+#: includes/admin/class-wc-address-validation-admin.php:172
+msgid "Active?"
+msgstr "Actief?"
+
+#: includes/admin/class-wc-address-validation-admin.php:173
+msgid "Provider"
+msgstr "Aanbieder"
+
+#: includes/admin/class-wc-address-validation-admin.php:185
+msgid "Provider ID"
+msgstr "Aanbieder ID"
+
+#: includes/admin/class-wc-address-validation-admin.php:257
+msgid "Geocode Addresses?"
+msgstr "Adressen geocoderen?"
+
+#: includes/admin/class-wc-address-validation-admin.php:258
+msgid ""
+"Enable this to save customer's latitude and longitude to their order, if "
+"supported by the active provider."
+msgstr ""
+"Schakel dit in om de breedte en lengtegraad van de klant vast te leggen bij "
+"de bestelling, indien ondersteund door de actieve aanbieder."
+
+#: includes/admin/class-wc-address-validation-admin.php:265
+msgid "Classify Addresses?"
+msgstr "Adres classificeren?"
+
+#: includes/admin/class-wc-address-validation-admin.php:266
+msgid ""
+"Enable this to save a customer's address classification (e.g. Residential or "
+"Commercial) to their order, if supported by the active provider."
+msgstr ""
+"Schakel dit in om de adres classificatie (bv particulier of commercieel) van "
+"de klant bij de bestelling te bewaren, als dit ondersteund wordt door de "
+"actieve aanbieder."
+
+#: includes/admin/class-wc-address-validation-admin.php:273
+msgid "Force Customer to look-up address via Postcode?"
+msgstr "Verplicht klanten om hun adres op te zoeken via Postcode?"
+
+#: includes/admin/class-wc-address-validation-admin.php:274
+msgid ""
+"Enable this to force customers to look-up their address via Postcode before "
+"displaying the address fields. This is only supported with providers who "
+"support Postcode Lookup. "
+msgstr ""
+"Schakel dit in om klanten te verplichten om hun adres op te zoeken via "
+"Postcode voordat de adres velden getoond worden. Dit is uitsluitend "
+"ondersteund bij aanbieders die postcode verificatie ondersteunen."
+
+#: includes/admin/class-wc-address-validation-admin.php:281
+msgid "Debug Mode"
+msgstr "Debug Mode"
+
+#: includes/admin/class-wc-address-validation-admin.php:282
+msgid ""
+"Enable this to output debug messages on the checkout page to help with "
+"troubleshooting."
+msgstr ""
+"Schakel dit in om debug berichten op de uitcheck pagina te tonen in verband "
+"met foutopsporing."
+
+#: includes/providers/class-wc-address-validation-provider-crafty-clicks.php:51
+msgid "Crafty Clicks"
+msgstr "Crafty Clicks"
+
+#: includes/providers/class-wc-address-validation-provider-crafty-clicks.php:98
+#: includes/providers/class-wc-address-validation-provider-crafty-clicks.php:157
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:101
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:134
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:156
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:102
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:151
+msgid "No addresses found, please check your postcode and try again."
+msgstr ""
+"Geen adressen gevonden, controleer uw postcode en probeer het nog eens."
+
+#: includes/providers/class-wc-address-validation-provider-crafty-clicks.php:191
+msgid "Access Token"
+msgstr "Access Token"
+
+#: includes/providers/class-wc-address-validation-provider-crafty-clicks.php:193
+msgid "Enter your Access Token from the Crafty Clicks website."
+msgstr "Voer uw Access Token in van de Crafty Clicks website."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:51
+msgid "Postcode Anywhere"
+msgstr "Postcode Anywhere"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:167
+msgid "API Key"
+msgstr "API sleutel"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:169
+msgid "Enter your API Key from the Postcode Anywhere website."
+msgstr "Voer uw API sleutel in van de Postcode Anywhere website."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:174
+msgid "API Username"
+msgstr "API gebruikersnaam"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-anywhere.php:176
+msgid ""
+"Enter your username associated with your Royal Mail account. This is not "
+"required, so leave blank if you do not have one."
+msgstr ""
+"Voer uw gebruikersnaam in dat geassocieerd is met uw Royal Mail account. Dit "
+"is niet vereist dus u kunt het leeg laten indien u geen account heeft."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:51
+msgid "Postcode.nl"
+msgstr "Postcode.nl"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:96
+msgid "No addresses found, please enter your house number and try again."
+msgstr "Geen adressen gevonden, voer uw huisnummer in en probeer het nog eens."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:117
+msgid ""
+"No addresses found, please check your postcode and house number and try "
+"again."
+msgstr ""
+"Geen adressen gevonden, controleer uw postcode en huisnummer en probeer het "
+"nog eens."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:190
+msgid "Application Key"
+msgstr "Application Key"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:192
+msgid ""
+"Log into your account or look at your sign-up email to find your application "
+"key."
+msgstr ""
+"Log in op uw account of bekijk uw aanmeld email om uw applicatie sleutel te "
+"achterhalen."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:197
+msgid "Application Secret"
+msgstr "Application Secret"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-dot-nl.php:199
+msgid ""
+"Log into your account or look at your sign-up email to find your application "
+"secret."
+msgstr ""
+"Log in op uw account of bekijk uw aanmeld email om uw applicatie geheim te "
+"achterhalen."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:51
+msgid "PostcodeSoftware.net"
+msgstr "PostcodeSoftware.net"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:185
+msgid "Account Number"
+msgstr "Account nummer"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:187
+msgid ""
+"Log into your account or look at your sign-up email to find your account "
+"number."
+msgstr ""
+"Log in op uw account of bekijk uw aanmeld email om uw account nummer te "
+"achterhalen."
+
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:192
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: includes/providers/class-wc-address-validation-provider-postcode-software-dot-net.php:194
+msgid ""
+"Log into your account or look at your sign-up email to find your password."
+msgstr ""
+"Log in op uw account of bekijk uw aanmeld email om uw wachtwoord te "
+"achterhalen."
+
+#: includes/providers/class-wc-address-validation-provider-smartystreets.php:51
+msgid "SmartyStreets"
+msgstr "SmartyStreets"
+
+#: includes/providers/class-wc-address-validation-provider-smartystreets.php:53
+msgid ""
+"SmartyStreets offers free (up to 250 lookups per month) address verification "
+"for both residential and commercial US addresses. %sSign up for a free "
+"account%s now to get started."
+msgstr ""
+"SmartyStreets biedt gratis (maximum 250 opzoekingen per maand) adres "
+"verificatie voor zowel particuliere als commerciële US adressen. %sMeld je "
+"aan voor een gratis account%s om te starten."
+
+#: includes/providers/class-wc-address-validation-provider-smartystreets.php:98
+msgid "HTML Key"
+msgstr "HTML sleutel"
+
+#: includes/providers/class-wc-address-validation-provider-smartystreets.php:100
+msgid ""
+"Enter your HTML Key. Login to your %sSmartyStreets%s account to find this."
+msgstr ""
+"Voer uw HTML sleutel in. Log in op uw %sSmartyStreets%s account om dit te "
+"achterhalen."
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:228
+msgid ""
+"%s requires the %s PHP extension to function.  Contact your host or server "
+"administrator to configure and install the missing extension."
+msgid_plural ""
+"%s requires the following PHP extensions to function: %s.  Contact your host "
+"or server administrator to configure and install the missing extensions."
+msgstr[0] ""
+"%s vereist de %s PHP extensie om te functioneren.  Neem contact op met uw "
+"hosting of server beheerder om de missende extensie te installeren en "
+"configureren."
+msgstr[1] ""
+"%s vereist de %s PHP extensies om te functioneren.  Neem contact op met uw "
+"hosting of server beheerder om de missende extensies te installeren en "
+"configureren."
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:248
+msgid ""
+"%s requires the %s PHP function to exist.  Contact your host or server "
+"administrator to configure and install the missing function."
+msgid_plural ""
+"%s requires the following PHP functions to exist: %s.  Contact your host or "
+"server administrator to configure and install the missing functions."
+msgstr[0] ""
+"%s vereist de %s PHP functie om te functioneren.  Neem contact op met uw "
+"hosting of server beheerder om de missende functie te installeren en "
+"configureren."
+msgstr[1] ""
+"%s vereist de %s PHP functies om te functioneren.  Neem contact op met uw "
+"hosting of server beheerder om de missende functies te installeren en "
+"configureren."
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:272
+msgid "Dismiss"
+msgstr "Afwijzen"
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:339
+msgid "Docs"
+msgstr "Documenten"
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:343
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:347
+msgid "Write a Review"
+msgstr "Schrijf een recensie"
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:609
+msgid "Configure"
+msgstr "Configureer"
+
+#: templates/checkout/form-postcode-lookup.php:31
+msgid "Enter Postcode"
+msgstr "Voer Postcode in"
+
+#: templates/checkout/form-postcode-lookup.php:36
+msgid "Enter House Number"
+msgstr "Voer huisnummer in"
+
+#: templates/checkout/form-postcode-lookup.php:41
+msgid "Find Address"
+msgstr "Vind adres"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Address Validation"
+msgstr "WooCommerce Address Validation"
+
+#: woocommerce-address-validation.php:175
+msgid "Select your address to populate the form."
+msgstr "Selecteer uw adres om het formulier mee in te vullen."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/address-validation/"
+msgstr "http://www.woothemes.com/products/address-validation/"
+
+#. Description of the plugin/theme
+msgid ""
+"Adds Address Validation and Postcode Lookup to WooCommerce via "
+"PostCodeAnywhere, SmartyStreets and more!"
+msgstr ""
+"Voeg adresvalidatie en postcode verificatie toe aan WooCommerce via "
+"PostCodeAnywhere, SmartyStreets en meer!"
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr "SkyVerge"
+
+#. Author URI of the plugin/theme
+msgid "http://www.skyverge.com"
+msgstr "http://www.skyverge.com"
